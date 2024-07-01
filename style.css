@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  border: 0;
+}
+.logo {
+  width: 199px;
+  height: 48px;
+}
+.undertitle {
+  font-size: 24px;
+}
+.logoheader {
+  display: flex;
+
+  align-items: center;
+  width: 90%;
+  justify-content: left;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div1 {
+  color: white;
+  gap: 45px;
+  background: linear-gradient(to bottom right, #834cae, #1d5b9d);
+  padding: 70px 0;
+}
+.div2 {
+  padding: 70px 0;
+  gap: 40px;
+}
+.div3 {
+  gap: 40px;
+  padding: 70px;
+}
+.bento {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.bentocell {
+  width: 420px;
+  background-color: #f1f1f1;
+  display: flex;
+  border-radius: 16px;
+  padding: 60px;
+  flex-direction: column;
+  gap: 35px;
+  height: 380px;
+  transition: transform 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+.bentocell:hover {
+  transform: scale(1.05);
+}
+.bentotitle {
+  font-size: 36px;
+}
+.bentobody {
+  font-size: 20px;
+}
+.bentoimgcontainer {
+ display: flex;
+ justify-content: right;
+
+}
+.bentoimg1{
+    width: 200px;
+   
+}
+.bentoimg2{
+    width: 200px;
+    
+   
+}
+.bentoimg3{
+    width: 200px;
+
+   
+   
+}
+.bentoimg5{
+    width: 200px;
+
+   
+}
+.bentoimg4{
+    width: 200px;
+
+   
+}
+.heroimage {
+    margin-top: 40px;
+    width: 1220px;
+  }
+  
+.demobutton {
+  font-weight: bold;
+  padding: 16px 32px;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.demobutton:hover {
+  background-color: transparent;
+  color: white;
+  transform: scale(1.05);
+  border: 1px solid white;
+}
+.title {
+  font-size: 64px;
+  text-align: center;
+}
+.form {
+  width: 500px;
+  gap: 35px;
+}
+
+.forminput {
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #676767;
+  font-weight: 300;
+  padding: 16px 12px;
+  width: 100%;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
+.formbutton {
+  padding: 16px 64px;
+  border: 1px solid #1d5b9d;
+  border-radius: 50px;
+  color: white;
+  background-color: #1d5b9d;
+  font-size: 20px;
+  font-weight: 300;
+  transition: transform 0.3s;
+}
+.formbutton:hover {
+    background-color: transparent;
+    color: #1d5b9d;
+    transform: scale(1.05);
+    border: 1px solid #1d5b9d;
+  }
+
+.div4 {
+  border-top: 1px solid #676767;
+  gap: 35px;
+  padding: 35px;
+}
+.iconconstainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.socialicon {
+  width: 32px;
+  height: 32px;
+  color: black;
+}
