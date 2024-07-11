@@ -79,7 +79,8 @@
 
 .heroimage {
   margin-top: 40px;
-  width: 1400px
+  max-width: 1400px;
+  width: 100%;
 }
 
 .demobutton {
